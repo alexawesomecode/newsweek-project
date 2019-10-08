@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    padding-top: 1rem;
+    font-size: 26px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+div {
+    border: 2px solid blueviolet;
+}
+
+ul>li {
+    flex: 1;
+    width: 10%;
+    border: 1px solid green;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-bottom: 15px;
+}
+
+.in-the-magazine .row {
+    height: 355px;
+}
+
+.in-the-magazine .d-flex {
+    height: 75%;
+}
+
+.editors-pick .col {
+    padding: 20px;
+}
+
+.featured .col {
+    padding: 30px 30px 60px 30px;
+}
+
+.featured h1 {
+    padding-top: 1rem;
+    font-size: 26px;
+    line-height: 22px;
+    font-weight: bold;
+}
+
+.pickings>.row {
+    height: 403px;
+    border: 3px solid yellow
+}
+
+.section-article-listing>div {
+    height: 33%;
+}
