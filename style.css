@@ -241,7 +241,7 @@ section {
 }
 
 .pickings .col>img {
-    width: 385px;
+    width: 380px;
 }
 
 .in-the-magazine .col {
@@ -252,8 +252,21 @@ section {
     border-top: 1px solid lightgray;
 }
 
-div {
-    border: 1px solid yellow;
+.footer-logo {
+    font-size: 45px;
+    color: red;
+    font-weight: bold;
+}
+
+footer ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+footer ul li {
+    padding-right: 0.8rem;
+    font-size: 14px;
+    color: gray;
 }
 
 @media only screen and (max-width: 578px) {
