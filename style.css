@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.container {
-    border-bottom: 1px solid lightgray;
-}
-
 a {
     color: lightgray;
     text-decoration: none;
@@ -113,7 +109,8 @@ img {
 }
 
 section {
-    padding-bottom: 15px;
+    padding-bottom: 8px;
+    padding-top: 15px;
 }
 
 .section-title {
@@ -130,6 +127,7 @@ section {
     width: 90%;
     border-bottom: 1px solid #d9d9d9;
     margin: 0 auto;
+    padding-top: 2rem;
 }
 
 .section-title span {
@@ -194,7 +192,7 @@ section {
     padding-top: 3%;
 }
 
-.in-the-magazine col {
+.in-the-magazine .row>div {
     padding-bottom: 4%;
 }
 
@@ -301,4 +299,8 @@ footer ul li {
     .logo-date {
         display: none;
     }
+}
+
+div {
+    border: 1px solid yellow;
 }
