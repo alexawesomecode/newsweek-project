@@ -4,8 +4,23 @@
   box-sizing: border-box;
 }
 
-a {
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+footer a {
   color: lightgray;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
   text-decoration: none;
 }
 
@@ -14,11 +29,6 @@ i {
   color: gray;
   margin-left: 15px;
   margin-top: 20px;
-}
-
-a:hover {
-  color: gray;
-  text-decoration: none;
 }
 
 h1 {
@@ -38,11 +48,16 @@ p {
   height: 100px;
 }
 
-.logo-newsweek {
-  font-size: 100px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: white;
-  line-height: 0.7;
+.logo > * {
+  flex: 1;
+}
+
+img {
+  width: 100%;
+}
+
+.logo-newsweek > img {
+  height: 91px;
 }
 
 .logo-date {
@@ -70,10 +85,6 @@ ul > li {
   font-size: 18px;
   font-weight: bold;
   text-align: left;
-}
-
-img {
-  width: 100%;
 }
 
 .front-articles {
@@ -268,9 +279,7 @@ section {
 }
 
 .footer-logo {
-  font-size: 45px;
-  color: red;
-  font-weight: bold;
+  width: 270px;
 }
 
 footer ul {
