@@ -1,0 +1,314 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+}
+
+footer a {
+  color: lightgray;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: gray;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+i {
+  font-size: 37px;
+  color: gray;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+h1 {
+  padding-top: 1rem;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: bold;
+}
+
+p {
+  font-size: 15px;
+  color: darkslategray;
+}
+
+.logo {
+  background: red;
+  height: 100px;
+}
+
+.logo > * {
+  flex: 1;
+}
+
+img {
+  width: 100%;
+}
+
+.logo-newsweek > img {
+  height: 91px;
+}
+
+.logo-date {
+  font-size: 15px;
+  color: white;
+}
+
+.logo-subscribe {
+  background: white;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  font-size: 18px;
+  padding: 0;
+  margin: 1%;
+}
+
+.navbar-brand {
+  flex: 1;
+  align-self: flex-end;
+}
+
+ul > li {
+  padding-top: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.front-articles {
+  padding-top: 2%;
+}
+
+.front-articles .col-6 {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.featured-stories > span {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  color: darkgray;
+}
+
+.featured-stories > h1 {
+  font-size: 24px;
+}
+
+.featured-stories > p {
+  font-size: 15px;
+  color: black;
+  font-weight: 300;
+}
+
+.avatar-photo {
+  width: 126px;
+}
+
+section {
+  padding-bottom: 8px;
+  padding-top: 15px;
+}
+
+.section-title {
+  font-size: 20px;
+}
+
+.section-title img {
+  width: 29px;
+  background: red;
+  height: 28px;
+}
+
+.logo-section {
+  width: 90%;
+  border-bottom: 1px solid #d9d9d9;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.section-title span {
+  padding-left: 10px;
+  padding-bottom: 12px;
+  font-size: 19px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.top-stories {
+  background-color: whitesmoke;
+  color: gray;
+}
+
+.top-stories h1 {
+  font-size: 15px;
+  color: black;
+}
+
+.top-stories h2 {
+  font-size: 15px;
+  color: lightgray;
+}
+
+.top-stories p {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.more-stories img {
+  width: 34%;
+  padding: 2%;
+}
+
+.more-stories h1 {
+  font-size: 18px;
+}
+
+.more-stories h2 {
+  font-size: 15px;
+  font-weight: 700;
+  padding: 8px;
+  color: lightgray;
+}
+
+.more-stories-item {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.latest-news > * {
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.latest-news img {
+  padding: 10px;
+}
+
+.in-the-magazine {
+  padding-top: 3%;
+}
+
+.section-article-listing > div {
+  height: 33%;
+}
+
+.in-the-magazine .row > div {
+  padding-bottom: 4%;
+}
+
+.in-the-magazine .d-flex {
+  height: 63%;
+}
+
+.red-box-title {
+  padding: 11px 0;
+}
+
+.red-box-title .red-bg {
+  background: red;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px;
+}
+
+.red-title {
+  color: red;
+}
+
+.red-box-title .red-title {
+  font-size: 16px;
+  font-weight: bold;
+  padding-left: 4px;
+}
+
+.editors-pick .col {
+  padding: 15px;
+}
+
+.editors-pick h1 {
+  padding: 10px 0;
+  font-size: 24px;
+}
+
+.featured h1 {
+  padding-top: 1rem;
+  font-size: 26px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.container-featured {
+  width: 98%;
+}
+
+.featured .col {
+  padding: 20px 15px 60px 25px;
+}
+
+.pickings > .row {
+  height: 403px;
+  border: 3px solid yellow;
+}
+
+.pickings .col > img {
+  width: 380px;
+}
+
+.in-the-magazine .col {
+  padding-bottom: 64px;
+}
+
+.pickings .container-fluid {
+  border-top: 1px solid lightgray;
+}
+
+.footer-logo {
+  width: 270px;
+}
+
+footer ul {
+  display: inline-flex;
+  list-style: none;
+}
+
+footer ul li {
+  padding-right: 0.8rem;
+  font-size: 14px;
+  color: gray;
+}
+
+@media only screen and (max-width: 578px) {
+  .logo {
+    height: auto;
+    padding: 5px;
+  }
+
+  .logo-newsweek {
+    text-align: left;
+    font-size: 30px;
+  }
+
+  .row-below-logo > ul li {
+    display: none;
+  }
+
+  .logo-date {
+    display: none;
+  }
+}
